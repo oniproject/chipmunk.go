@@ -11,6 +11,8 @@
 %ignore "cpSpaceAddCollisionHandler";
 %ignore "cpSpaceAddWildcardHandler";
 
+%ignore "cpPolyShapeNewRaw";
+
 %ignore "freeFunc";
 %ignore "cpArrayFreeEach";
 
@@ -33,7 +35,7 @@
 */
 %include "chipmunk/cpBody.h"
 %include "chipmunk/cpShape.h"
-//%include "chipmunk/cpPolyShape.h"
+%include "chipmunk/cpPolyShape.h"
 //%include "chipmunk/cpConstraint.h"
 
 %include "chipmunk/cpSpace.h"
