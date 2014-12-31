@@ -39,8 +39,9 @@
 
 #if CP_USE_CGTYPES
 	#if TARGET_OS_IPHONE
-		#import <CoreGraphics/CGGeometry.h>
-		#import <CoreGraphics/CGAffineTransform.h>
+		// XXX
+		//#import <CoreGraphics/CGGeometry.h>
+		//#import <CoreGraphics/CGAffineTransform.h>
 	#elif TARGET_OS_MAC
 		#include <ApplicationServices/ApplicationServices.h>
 	#endif
